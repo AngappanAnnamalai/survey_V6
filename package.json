@@ -41,6 +41,7 @@
         ]
     },
     "devDependencies": {
+        "@notionhq/client": "^2.2.3",
         "netlify": "^13.1.4"
     }
 }
