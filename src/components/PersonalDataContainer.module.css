@@ -1,0 +1,52 @@
+.name,
+.personalDetails {
+  align-self: stretch;
+  position: relative;
+}
+.personalDetails {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.name {
+  border: 0;
+  background-color: transparent;
+}
+.submitButtonText {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.personalDataContainer,
+.submitButton {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+.submitButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-22xl);
+  background-color: var(--color-crimson);
+  border-radius: var(--br-3xs);
+  width: 7.69rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.personalDataContainer {
+  background-color: var(--color-white);
+  width: 26.25rem;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-69xl);
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

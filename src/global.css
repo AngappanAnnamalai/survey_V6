@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-xs: 0.75rem;
+  --font-size-7xl: 1.63rem;
+  --font-size-sm: 0.88rem;
+  --font-size-base: 1rem;
+  --font-size-2xs: 0.69rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-crimson: #e73c3c;
+  --color-black: #000;
+  --color-whitesmoke-100: #f8f0f0;
+  --color-dimgray: #544f4f;
+  --color-yellowgreen: #a0c82c;
+
+  /* Gaps */
+  --gap-27xl: 2.88rem;
+  --gap-3xs: 0.63rem;
+  --gap-5xs: 0.5rem;
+  --gap-6xs: 0.44rem;
+
+  /* Paddings */
+  --padding-3xl: 1.38rem;
+  --padding-69xl: 5.5rem;
+  --padding-3xs: 0.63rem;
+  --padding-22xl: 2.56rem;
+  --padding-7xs: 0.38rem;
+  --padding-xl: 1.25rem;
+  --padding-base: 1rem;
+  --padding-9xs: 0.25rem;
+  --padding-smi: 0.81rem;
+  --padding-2xs: 0.69rem;
+  --padding-mid: 1.06rem;
+  --padding-5xs: 0.5rem;
+  --padding-12xs: 0.06rem;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-mini: 15px;
+  --br-12xs-5: 0.5px;
+  --br-8xs: 5px;
+}

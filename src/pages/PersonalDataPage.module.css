@@ -1,0 +1,27 @@
+.personalDataPage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 68.69rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .personalDataPage {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .personalDataPage {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .personalDataPage {
+    height: 100%;
+  }
+}
