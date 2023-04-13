@@ -60,11 +60,11 @@ export default function FoodItemCard ({foodKind, foodTagText, foodTagColor, food
           src="/plusicon.svg"
         />
       </div>
-      <button className={styles.addButton} disabled id={addButtonId}>
+      {/* <button className={styles.addButton} disabled id={addButtonId}>
         <p className={styles.addButtonText} id="add-button-text">
           ADD +
         </p>
-      </button>
+      </button> */}
     </div>
   </div>
 }
