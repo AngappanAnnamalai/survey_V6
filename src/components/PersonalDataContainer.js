@@ -2,13 +2,24 @@ import { useCallback } from "react";
 import { TextField } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import styles from "./PersonalDataContainer.module.css";
+import axios from "axios";
 
 const PersonalDataContainer = () => {
   const navigate = useNavigate();
 
-  const onSubmitButtonClick = useCallback(() => {
-    navigate("/foodmenupage");
-  }, [navigate]);
+ const onSubmitButtonClick = (e) => {
+    e.preventDefault()
+    const userData = {
+        test: 'react'
+    }
+    axios.post("https://eo58sbh4ytnfpvr.m.pipedream.net", userData).then((response) => {
+        console.log(response.status, response.data.token)
+    })
+    useCallback(() => {
+        navigate("/foodmenupage");
+      }, [navigate]);
+  }
+
 
   return (
     <div className={styles.personalDataContainer} id="form-container">
