@@ -14,7 +14,8 @@ const PersonalDataContainer = () => {
  const onSubmitButtonClick = (e) => {
     e.preventDefault()
     const userData = {
-        test: 'react'
+        name: 'reactData',
+        email: 'react@mail.com'
     }
     axios.post("https://eo58sbh4ytnfpvr.m.pipedream.net", userData).then((response) => {
         console.log(response.status, response.data.token)
