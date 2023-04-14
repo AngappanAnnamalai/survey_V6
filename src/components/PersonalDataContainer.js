@@ -6,6 +6,10 @@ import axios from "axios";
 
 const PersonalDataContainer = () => {
   const navigate = useNavigate();
+  
+  const pageChanger = useCallback(() => {
+     navigate("/foodmenupage");
+   }, [navigate]);
 
  const onSubmitButtonClick = (e) => {
     e.preventDefault()
@@ -15,10 +19,9 @@ const PersonalDataContainer = () => {
     axios.post("https://eo58sbh4ytnfpvr.m.pipedream.net", userData).then((response) => {
         console.log(response.status, response.data.token)
     })
-    useCallback(() => {
-        navigate("/foodmenupage");
-      }, [navigate]);
+    pageChanger()
   }
+
 
 
   return (
